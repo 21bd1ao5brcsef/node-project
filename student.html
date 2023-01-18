@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Student</title>
+    <style type="text/css">
+        body{
+            background-image: url("girly.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:fixed ;
+        }
+        h2{
+            text-align: center;
+        }
+        .txt{
+            text-align: center;
+        }
+        .button {
+            background-color:white; 
+            border-radius: 30px;
+            border: 2px solid blue;
+            font-size:24px;
+            padding:12px 24px;
+            
+
+}
+
+        .button:hover {
+            background-color:rgb(218, 12, 136);
+            color: black;
+        
+            
+          
+}
+        #hide{
+            display:none;
+            font-size: large;
+        }
+        #btn{
+            border:none;
+            border-radius: 30px;
+            font-size: 15px;
+            height:45px;
+            outline:none;
+            margin:10px 0;
+            width:20%;
+            background: rgba(255,255,255,0.1);
+            cursor: pointer;
+            transition: .3s;
+
+
+        }
+        #btn:hover{
+            background-color:rgb(223, 35, 138);
+
+        }
+        .navbar-nav {
+            margin-left: auto;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <h1><a href="#" class="navbar-brand"> Happiness Quotient</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                
+                <span class="navbar-toggler-icon"></span>
+                <i class="bx bx-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                
+                
+                
+            
+                
+                
+                <br/>
+                <br/>
+            
+                
+            </ul>
+    
+    </div>
+</nav>
+    <div class="container">
+        <h2>How happy are you?</h2>
+        <br/>
+        <br/>
+    </div>
+    
+    <div class="txt">
+    <button class="button" id="toggleBtn">Start Quiz</button>
+    </div>
+    <div id="hide">
+        <form name="quiz" id="quiz">
+            <div>
+                <p>1.Do you have supportive classmates?</p>
+                <p><input type="radio" name="question1" value="Yes, extremely supportive">A.Yes, extremely supportive</p>
+                <p><input type="radio" name="question1" value="Neutral">B.Neutral</p>
+                <p><input type="radio" name="question1" value="No, extremely unsupportive">C.No, extremely unsupportive</p>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>2.Do you think that the school provides you with adequate sports facilities? </p>
+                <p><input type="radio" name="question2" value="Yes">A.Yes</p>
+                <p><input type="radio" name="question2" value="No">B.No</p>
+                <p><input type="radio" name="question2" value="Not always">C.Not always</p>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>3.How much time do you spend every day on homework?</p>
+                <p><input type="radio" name="question3" value="1-2 hours">A.1-2 hours</p>
+                <p><input type="radio" name="question3" value="3 hours">B.3 hours</p>
+                <p><input type="radio" name="question3" value=">3 hours">C.>3 hours</p>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>4. Does your teacher encourage you to perform better?</p>
+                <p><input type="radio" name="question4" value="Yes, all the time">A.Yes, all the time</p>
+                <p><input type="radio" name="question4" value="Only sometimes ">B.Only sometimes </p>
+                <p><input type="radio" name="question4" value="No, not at all">C.No, not at all</p>
+                <br/>
+                <br/>
+            </div>
+            <div>
+            <p>5.Do you feel it gets hectic to study at home after school/college?</p>
+                <p><input type="radio" name="question5" value="Not at all hectic">A.Not at all hectic</p>
+                <p><input type="radio" name="question5" value="Somewhat hectic ">B.Somewhat hectic </p>
+                <p><input type="radio" name="question5" value="very hectic">C.very hectic</p>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>6.Have you ever been bullied in this school?</p>
+                    <p><input type="radio" name="question6" value="No">A.No</p>
+                    <p><input type="radio" name="question6" value="I know someone who was bullied">B.I know someone who was bullied</p>
+                    <p><input type="radio" name="question6" value="Yes">C.Yes</p>
+                    <br/>
+                    <br/>
+                </div>
+                <div>
+                    <p>7.Would you like more extracurricular activities to be conducted?</p>
+                        <p><input type="radio" name="question7" value="Yes">A.Yes</p>
+                        <p><input type="radio" name="question7" value="maybe">B.maybe</p>
+                        <p><input type="radio" name="question7" value="No">C.No</p>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div>
+                        <p>8.How likely would you recommend this school to a friend?</p>
+                            <p><input type="radio" name="question8" value="Very likely ">A.Very likely </p>
+                            <p><input type="radio" name="question8" value="Somewhat likely">B.Somewhat likely</p>
+                            <p><input type="radio" name="question8" value="Not likely">C.No likely</p>
+                            <br/>
+                            <br/>
+                        </div>
+                        <div class="container text-center">
+                            <button type="button" class="btn btn-lg btn-warning"id="btn" onclick="location.href='happiness.html'"  >Submit</button>
+                        </div>
+            
+
+        </form>
+    </div>
+    
+
+    <script>
+        const toggleBtn=document.querySelector("#toggleBtn");
+        const divlist=document.querySelector("#hide");
+        toggleBtn.addEventListener('click',() =>{
+            if(divlist.style.display==='none'){
+                divlist.style.display='block';
+            }
+            else{
+                divlist.style.display='none';
+
+            }
+        })
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "mwq",
+  "version": "1.0.0",
+  "description": "aim of this project is to calculate the happiness quotient of the school",
+  "main": "homepage.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"lite-server"
+  },
+  "keywords": [
+    "my",
+    "first",
+    "node",
+    "project"
+  ],
+  "author": "shreya",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

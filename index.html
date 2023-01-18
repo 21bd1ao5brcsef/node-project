@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <style type="text/css">
+        .navbar-nav {
+            margin-left: auto;
+            font-size: large;
+        }
+        header{
+            width:100vw;
+            height:100vh;
+            background-image: url("Screenshot.png");
+            background-position: top;
+            background-size: cover;
+            display:flex;
+            align-items: top;
+            
+        }
+        .header-content{
+            margin-bottom: 150px;
+            color:white;
+            text-align:top;
+        }
+        .header-content h2{
+            font: 4vmin;
+        }
+        a{
+            text-decoration:none;
+            font-size: large;
+            color: black;
+        }
+        .ctn{
+            padding: 20px 50px;
+            background:white;
+
+        }
+        .inner-footer{
+            margin:0;
+            padding:0;
+            background-color:white;
+            
+            
+
+
+        }
+        section{
+            width:100vw;
+            height:100vh;
+            background-image: url("homepage.jpg");
+            background-position: top;
+            background-size: cover;
+            display:flex;
+            align-items: top;
+            
+        }
+        
+        .box{
+            width:250px;
+            margin:0 10px;
+            box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+
+        }
+        .box img{
+            display:block;
+            width:100%;
+            border-radius: 5px;
+        }
+        .box:hover{
+            transform:scale(1.3);
+            z-index:2;
+        }
+        a{
+            align-self: right;
+        }
+        
+        .contact{
+            position:relative;
+            min-height: 100vh; 
+            padding:50px 100px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image:url("footer.jpg");
+            background-size: cover;
+        }
+       
+        .contact .content h2{
+            font-size: 36px;
+            font-weight: 500;
+            color:#fff;}
+        .contact .content p{
+            font-size: 20px;
+            font-weight: 500;
+            color:#fff;}
+        .contact .content{
+            max-width: 800px;
+            text-align: center;
+        }
+        .container .contactinfo{
+            width:50%;
+            display:flex;
+            flex-direction: column;
+        }
+        .container .contactinfo .box{
+            position:relative;
+            padding:20px 0;
+            display:flex;
+        }
+        .container .contactinfo .box .icon{
+            min-width: 60px;
+            height:60px;
+            background: #fff;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;;
+        }
+        .container .contactinfo .box .icon.text{
+            display:flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color:#fff;
+            flex-direction:row;
+            font-weight: 30;
+        }
+        form{
+            
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;;
+
+        }
+
+        
+    </style>
+    <title>Homepage</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <h1><a href="#" class="navbar-brand"> Happiness Quotient </a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                
+                <span class="navbar-toggler-icon"></span>
+                <i class="bx bx-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                
+                
+            
+                
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            
+                
+            </ul>
+    
+    </div>
+</nav>
+
+
+
+
+
+
+    <header>
+        <div class="container">
+        <div class="header-content">
+            <br/>
+            <br/>
+            <h2><pre>Happiness is not by chance,
+                 but by choice!!!....</pre></h2>
+            <br/>
+            <br/>
+           <a href="login.html" class="ctn">Get Started!</a>
+        </div>
+        </div>
+        
+        
+    </header>
+    <section class="working">
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>How it works?</h1>
+                <p>1. A student page ( Students are asked to answer few questions based on which happiness quotient of the school is calculated and based on the HQ of the school few activities are assigned to students which helps improve the HQ also feedback is taken from the students which can help the management do better)</p>
+                <br/>
+                <br/>  
+                
+                <p> 2. A teacher's page ( Teacher's are asked to answer few questions about school environment and few activities are suggested to the teacher's to make teaching more student friendly)</p>
+                <br/>
+                <br/>
+                <br/>  
+                <p> 3. A parent's page ( Parent's are asked to answer few questions about student's behaviour at home and feedback about school is taken which is sent the teachers/management to improve things and make it better for the students)</p>
+                
+            </div>
+            <div class="col">
+                <div class="image-gallery">
+                    <div class="container">
+                        
+                        <div class="box">
+                            <img src="children.jpeg" alt="">  
+                        </div>
+                        <div class="box">
+                            <img src="parent.jpeg" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="teacher.jpeg" alt="">
+
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <br/>
+        <br/>
+        
+    </section>
+    <footer class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4671 sugar camp road, <br/>owatonna,minesota,<br/>55060</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>707-----03</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>shreya11@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+    </footer>
+    
+</body>
+</html>
